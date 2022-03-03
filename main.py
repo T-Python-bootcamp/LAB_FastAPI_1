@@ -50,6 +50,8 @@ async def get_a_student(student_id: int):
         "GPA" : 3.6
     }
 }
+    # if student_id == "Student Id":
+    #     return student_id
     return students[student_id]
 
 
